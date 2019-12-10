@@ -7,9 +7,8 @@
 //
 
 #include <stdio.h>
-
+#include "Palindrome.h"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    Palindrome(); 
     return 0;
 }

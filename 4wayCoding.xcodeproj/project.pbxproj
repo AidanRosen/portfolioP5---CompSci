@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA4CEEE923972030009439FC /* Palindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = CA4CEEE823972030009439FC /* Palindrome.c */; };
+		CAA03A2B239EFA4F00DB9EAB /* recursivePalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = CAA03A2A239EFA4F00DB9EAB /* recursivePalindrome.c */; };
 		CAA975FB2395C36400EE43D8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CAA975FA2395C36400EE43D8 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA4CEEE723972030009439FC /* Palindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Palindrome.h; sourceTree = "<group>"; };
+		CA4CEEE823972030009439FC /* Palindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Palindrome.c; sourceTree = "<group>"; };
+		CAA03A29239EFA4F00DB9EAB /* recursivePalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = recursivePalindrome.h; sourceTree = "<group>"; };
+		CAA03A2A239EFA4F00DB9EAB /* recursivePalindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = recursivePalindrome.c; sourceTree = "<group>"; };
 		CAA975F72395C36400EE43D8 /* 4wayCoding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4wayCoding; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA975FA2395C36400EE43D8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				CAA975FA2395C36400EE43D8 /* main.c */,
+				CA4CEEE723972030009439FC /* Palindrome.h */,
+				CA4CEEE823972030009439FC /* Palindrome.c */,
+				CAA03A29239EFA4F00DB9EAB /* recursivePalindrome.h */,
+				CAA03A2A239EFA4F00DB9EAB /* recursivePalindrome.c */,
 			);
 			path = 4wayCoding;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4CEEE923972030009439FC /* Palindrome.c in Sources */,
 				CAA975FB2395C36400EE43D8 /* main.c in Sources */,
+				CAA03A2B239EFA4F00DB9EAB /* recursivePalindrome.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

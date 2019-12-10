@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA4CEEF2239721CC009439FC /* stringReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4CEEF1239721CC009439FC /* stringReverse.m */; };
+		CA4CEEF523972684009439FC /* stringReverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4CEEF423972684009439FC /* stringReverse.storyboard */; };
+		CA9CB09623986BE100D1D414 /* Palindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9CB09523986BE100D1D414 /* Palindrome.c */; };
+		CAA03A2D239F02D700DB9EAB /* recursivePalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = CAA03A2C239F02D700DB9EAB /* recursivePalindrome.c */; };
 		CAA975BB2395C22A00EE43D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA975BA2395C22A00EE43D8 /* AppDelegate.m */; };
 		CAA975BE2395C22A00EE43D8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA975BD2395C22A00EE43D8 /* SceneDelegate.m */; };
 		CAA975C12395C22A00EE43D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA975C02395C22A00EE43D8 /* ViewController.m */; };
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA4CEEF1239721CC009439FC /* stringReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stringReverse.m; sourceTree = "<group>"; };
+		CA4CEEF3239723BA009439FC /* stringReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stringReverse.h; sourceTree = "<group>"; };
+		CA4CEEF423972684009439FC /* stringReverse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = stringReverse.storyboard; sourceTree = "<group>"; };
+		CA9CB09423986BC300D1D414 /* Palindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Palindrome.h; path = ../../../4wayCoding/4wayCoding/Palindrome.h; sourceTree = "<group>"; };
+		CA9CB09523986BE100D1D414 /* Palindrome.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Palindrome.c; path = ../../../4wayCoding/4wayCoding/Palindrome.c; sourceTree = "<group>"; };
+		CAA03A2C239F02D700DB9EAB /* recursivePalindrome.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = recursivePalindrome.c; sourceTree = "<group>"; };
 		CAA975B62395C22A00EE43D8 /* RosenPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RosenPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA975B92395C22A00EE43D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAA975BA2395C22A00EE43D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA4CEEED23972129009439FC /* C code  */ = {
+			isa = PBXGroup;
+			children = (
+				CA9CB09423986BC300D1D414 /* Palindrome.h */,
+				CAA03A2C239F02D700DB9EAB /* recursivePalindrome.c */,
+				CA9CB09523986BE100D1D414 /* Palindrome.c */,
+			);
+			path = "C code ";
+			sourceTree = "<group>";
+		};
+		CA4CEEF02397214C009439FC /* Obj C files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4CEEF1239721CC009439FC /* stringReverse.m */,
+				CA4CEEF3239723BA009439FC /* stringReverse.h */,
+			);
+			path = "Obj C files";
+			sourceTree = "<group>";
+		};
 		CAA975AD2395C22A00EE43D8 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +133,8 @@
 		CAA975B82395C22A00EE43D8 /* RosenPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				CA4CEEF02397214C009439FC /* Obj C files */,
+				CA4CEEED23972129009439FC /* C code  */,
 				CAA975B92395C22A00EE43D8 /* AppDelegate.h */,
 				CAA975BA2395C22A00EE43D8 /* AppDelegate.m */,
 				CAA975BC2395C22A00EE43D8 /* SceneDelegate.h */,
@@ -111,6 +142,7 @@
 				CAA975BF2395C22A00EE43D8 /* ViewController.h */,
 				CAA975C02395C22A00EE43D8 /* ViewController.m */,
 				CAA975C22395C22A00EE43D8 /* Main.storyboard */,
+				CA4CEEF423972684009439FC /* stringReverse.storyboard */,
 				CAA975C52395C22B00EE43D8 /* Assets.xcassets */,
 				CAA975C72395C22B00EE43D8 /* LaunchScreen.storyboard */,
 				CAA975CA2395C22B00EE43D8 /* Info.plist */,
@@ -241,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA975C92395C22B00EE43D8 /* LaunchScreen.storyboard in Resources */,
+				CA4CEEF523972684009439FC /* stringReverse.storyboard in Resources */,
 				CAA975C62395C22B00EE43D8 /* Assets.xcassets in Resources */,
 				CAA975C42395C22A00EE43D8 /* Main.storyboard in Resources */,
 			);
@@ -267,9 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4CEEF2239721CC009439FC /* stringReverse.m in Sources */,
 				CAA975C12395C22A00EE43D8 /* ViewController.m in Sources */,
 				CAA975BB2395C22A00EE43D8 /* AppDelegate.m in Sources */,
 				CAA975CC2395C22B00EE43D8 /* main.m in Sources */,
+				CAA03A2D239F02D700DB9EAB /* recursivePalindrome.c in Sources */,
+				CA9CB09623986BE100D1D414 /* Palindrome.c in Sources */,
 				CAA975BE2395C22A00EE43D8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
